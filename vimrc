@@ -631,6 +631,13 @@ NeoBundle 'elixir-lang/vim-elixir'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'leafgarland/typescript-vim'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" ale
+"
+" For linting
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'w0rp/ale'
+
 call neobundle#end()
 
 :runtime macros/matchit.vim
