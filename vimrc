@@ -637,15 +637,16 @@ NeoBundle 'leafgarland/typescript-vim'
 " For linting
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'w0rp/ale'
-" let g:ale_javascript_eslint_executable = 'eslint_d'
-" let g:ale_javascript_eslint_use_global = 1
+let g:ale_javascript_eslint_executable = 'eslint_d'
 let g:ale_lint_on_insert_leave = 1
+let g:ale_fix_on_save = 1
 let g:ale_linters = {
 \   'html': [],
-\}
+\   'javascript': ['eslint', 'flow'],
+\ }
 let g:ale_fixers = {
-      \ 'javascript': ['eslint'],
-      \ }
+\ 'javascript': ['eslint'],
+\ }
 
 call neobundle#end()
 
