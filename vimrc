@@ -649,6 +649,13 @@ let g:ale_fixers = {
 \ 'javascript': ['eslint', 'prettier'],
 \ }
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-tmux-navigator
+"
+" For seamless tmux / vim split navigation
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'christoomey/vim-tmux-navigator'
+
 call neobundle#end()
 
 :runtime macros/matchit.vim
