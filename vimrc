@@ -445,13 +445,15 @@ NeoBundle 'tpope/vim-scriptease'
 " completion.
 "
 " Settings are in plugin/mycomplete.vim
-"
-" neocomplete requires vim compiled w/ lua support.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'dirkwallenstein/vim-localcomplete'
 NeoBundle 'aaronjensen/vim-recentcomplete'
 
-NeoBundle 'Shougo/neocomplete.vim'
+NeoBundle 'Shougo/deoplete.nvim'
+if !has('nvim')
+  NeoBundle 'roxma/nvim-yarp'
+  NeoBundle 'roxma/vim-hug-neovim-rpc'
+endif
 
 " make enter always be enter, even when popup menu is visible.
 inoremap <CR> <C-g>u<C-r>=pumvisible()?"\C-y":""<CR><CR>
