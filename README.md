@@ -3,10 +3,10 @@
 Requires vim compiled with lua. On mac:
 
 ```
-$ brew install macvim --with-cscope --with-luajit
+$ brew install macvim --with-python3
 ```
 
-`git clone git://github.com/aaronjensen/vimfiles.git ~/.vim && ~/.vim/setup.sh`
+`git clone git://github.com/robinclowers/vimfiles.git ~/.vim && ~/.vim/setup.sh`
 
 Switched the Ack plugin to use [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
 Install OSX: `brew install the_silver_searcher`
