@@ -104,14 +104,7 @@ NeoBundle 'tomtom/tcomment_vim'
 " It must be built, it requires python-dev as a dependency
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'ctrlpvim/ctrlp.vim'
-NeoBundle 'JazzCore/ctrlp-cmatcher', {
-      \   'build' : {
-      \     'windows' : 'install_windows.bat',
-      \     'mac' : './install.sh',
-      \     'linux' : './install.sh',
-      \     'unix' : './install.sh',
-      \    }
-      \  }
+NeoBundle 'FelikZ/ctrlp-py-matcher'
 
 if executable('ag')
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
@@ -130,7 +123,7 @@ else
   let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
   let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others']
 endif
-let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
 " Don't manage working directory
 let g:ctrlp_working_path_mode = 0
