@@ -3,7 +3,7 @@
 Requires vim compiled with lua. On mac:
 
 ```
-$ brew install macvim
+$ brew install macvim --with-python3
 ```
 
 Or neovim with python 3 support:
