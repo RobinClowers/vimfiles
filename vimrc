@@ -219,8 +219,8 @@ NeoBundle 'tpope/vim-dispatch'
 
 let g:vroom_map_keys = 0
 let g:vroom_write_all = 1
-let g:vroom_use_zeus = 1
-let g:vroom_use_bundle_exec = 0
+let g:vroom_use_zeus = 0
+let g:vroom_use_bundle_exec = 1
 let g:vroom_use_dispatch = 0
 
 let g:dispatch_compilers = {
