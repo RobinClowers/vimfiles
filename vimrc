@@ -232,7 +232,7 @@ map <leader>t :VroomRunTestFile<cr>
 map <leader>T :VroomRunNearestTest<cr>
 map <leader>/ :Copen!<cr>
 map <silent> <leader>i :let g:vroom_use_dispatch = !g:vroom_use_dispatch<cr>
-autocmd BufNewFile,BufRead *.spec.js map <buffer> <leader>t :w<cr>:!node_modules/.bin/mocha % -r specs/specHelper.js<cr>
+autocmd BufNewFile,BufRead *.test.js map <buffer> <leader>t :w<cr>:!cd client && yarn test %<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim coffeescript runtime files
