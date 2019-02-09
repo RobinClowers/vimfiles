@@ -627,6 +627,13 @@ NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'leafgarland/typescript-vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-gdscript3
+"
+" For Godot gdscript support
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'calviken/vim-gdscript3'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ale
 "
 " For linting
