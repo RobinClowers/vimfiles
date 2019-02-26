@@ -627,6 +627,12 @@ NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'leafgarland/typescript-vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-tsx
+"
+" For Typescript tsx support
+NeoBundle 'ianks/vim-tsx'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-gdscript3
 "
 " For Godot gdscript support
