@@ -640,6 +640,13 @@ NeoBundle 'ianks/vim-tsx'
 NeoBundle 'calviken/vim-gdscript3'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-go
+"
+" For golang support
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'fatih/vim-go'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ale
 "
 " For linting
@@ -659,6 +666,7 @@ let g:ale_fixers = {
 \ 'javascript': ['eslint', 'prettier'],
 \ 'typescript': ['tslint', 'prettier'],
 \ 'elixir': ['mix_format'],
+\ 'go': ['goimports'],
 \ }
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
