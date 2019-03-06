@@ -669,6 +669,8 @@ let g:ale_fixers = {
 \ 'go': ['goimports'],
 \ }
 
+map <leader>d :ALEDetail<cr>
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-tmux-navigator
 "
