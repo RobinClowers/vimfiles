@@ -669,7 +669,10 @@ let g:ale_fixers = {
 \ 'go': ['goimports'],
 \ }
 
+" Show ALE error details
 map <leader>d :ALEDetail<cr>
+" Stop all language servers, including tsserver
+map <leader>r :ALEStopAllLSPs<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-tmux-navigator
