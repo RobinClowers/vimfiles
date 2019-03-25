@@ -148,15 +148,15 @@ map <leader><leader>f :let g:ctrlp_default_input = 0<cr>:CtrlPClearCache<cr>:Ctr
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Ripgrep
 "
-" Adds :Ag complete w/ quick fix.
+" Adds :Ack complete w/ quick fix.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-NeoBundle 'rking/ag.vim'
+NeoBundle 'mileszs/ack.vim'
 
-map <leader>a :Ag!<space>
-map <leader>A :Ag! <C-R><C-W><CR>
+map <leader>a :Ack!<space>
+map <leader>A :Ack! <C-R><C-W><CR>
 
 " on mac: brew install ripgrep
-let g:ag_prg = 'rg --vimgrep --smart-case'
+let g:ackprg = 'rg --vimgrep --smart-case'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Kills a buffer without closing a split, use ,w . Used in conjunction
