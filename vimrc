@@ -628,10 +628,10 @@ NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'leafgarland/typescript-vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vim-tsx
+" vim-jsx-typescript
 "
 " For Typescript tsx support
-NeoBundle 'ianks/vim-tsx'
+NeoBundle 'peitalin/vim-jsx-typescript'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-gdscript3
