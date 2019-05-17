@@ -232,8 +232,7 @@ map <leader>t :VroomRunTestFile<cr>
 map <leader>T :VroomRunNearestTest<cr>
 map <leader>/ :Copen!<cr>
 map <silent> <leader>i :let g:vroom_use_dispatch = !g:vroom_use_dispatch<cr>
-autocmd BufNewFile,BufRead *.test.js map <buffer> <leader>t :w<cr>:!cd client && yarn test %<cr>
-autocmd BufNewFile,BufRead *.test.ts map <buffer> <leader>t :w<cr>:!npm run test %<cr>
+autocmd BufNewFile,BufRead *.test.{js,jsx,ts,tsx} map <buffer> <leader>t :w<cr>:!yarn test %<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim coffeescript runtime files
