@@ -625,6 +625,19 @@ nmap <m-n> <Plug>yankstack_substitute_newer_paste
 NeoBundle 'elixir-lang/vim-elixir'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" tsuquyomi
+"
+" Typescript IDE
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Don't hijack C-6
+nmap <Leader><C-]> <Plug>(TsuquyomiReferences)
+NeoBundle 'tsuquyomi'
+
+" Show type definitions
+autocmd FileType typescript nmap <buffer> <Leader>i : <C-u>echo tsuquyomi#hint()<CR>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " typescript-vim
 "
 " For Typescript support
