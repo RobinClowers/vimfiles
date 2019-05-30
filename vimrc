@@ -670,6 +670,9 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \ 'javascript': ['eslint', 'prettier'],
 \ 'typescript': ['tslint', 'prettier'],
+\ 'markdown': ['prettier'],
+\ 'markdown.mdx': ['prettier'],
+\ 'scss': ['prettier'],
 \ 'elixir': ['mix_format'],
 \ 'go': ['goimports'],
 \ }
