@@ -652,6 +652,13 @@ NeoBundle 'calviken/vim-gdscript3'
 NeoBundle 'fatih/vim-go'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-terraform
+"
+" For Terraform support
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'hashivim/vim-terraform'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ale
 "
 " For linting
@@ -674,7 +681,8 @@ let g:ale_fixers = {
 \ 'markdown.mdx': ['prettier'],
 \ 'scss': ['prettier'],
 \ 'elixir': ['mix_format'],
-\ 'go': ['goimports'],
+\ 'go': ['goimports', 'gofmt'],
+\ 'terraform': ['terraform'],
 \ }
 
 " Show ALE error details
