@@ -635,7 +635,7 @@ NeoBundle 'tsuquyomi'
 
 " Show type definitions
 autocmd FileType typescript nmap <buffer> <Leader>i : <C-u>echo tsuquyomi#hint()<CR>
-
+let g:tsuquyomi_disable_quickfix = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " typescript-vim
