@@ -637,6 +637,11 @@ NeoBundle 'tsuquyomi'
 autocmd FileType typescript nmap <buffer> <Leader>i : <C-u>echo tsuquyomi#hint()<CR>
 let g:tsuquyomi_disable_quickfix = 1
 
+" Don't use broken tsuquyomi autocomplete
+" https://github.com/Quramy/tsuquyomi/issues/199
+autocmd FileType typescript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType typescript.tsx setlocal omnifunc=javascriptcomplete#CompleteJS
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " typescript-vim
 "
