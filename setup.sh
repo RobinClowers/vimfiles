@@ -1,8 +1,16 @@
 #!/bin/bash
-git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
-. ~/.vim/bundle/neobundle.vim/bin/neoinstall
 
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
+set -eo pipefail
 
-brew install ctags
+if [[ -d "$HOME/vim/bundle/neobundle.vim" ]]; then
+  git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+fi
+
+vim +NeoBundleInstall +qall
+
+if [[ ! -h "$HOME/.vimrc" ]]; then
+  ln -s ~/.vim/vimrc ~/.vimrc
+fi
+if [[ ! -h "$HOME/.gvimrc" ]]; then
+  ln -s ~/.vim/gvimrc ~/.gvimrc
+fi
