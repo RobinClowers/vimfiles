@@ -1,7 +1,7 @@
 "let g:rubycomplete_buffer_loading = 1
 set complete-=i
 " work around this issue: https://github.com/dense-analysis/ale/issues/1700
-set completeopt=menu,menuone,preview,noselect,noinsert
+set completeopt=menu,menuone,noselect,noinsert
 
 let g:localcomplete#OriginNoteLocalcomplete = '%'
 let g:localcomplete#OriginNoteAllBuffers = '+'
