@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-if [[ -d "$HOME/vim/bundle/neobundle.vim" ]]; then
+if [[ -d "$HOME/.vim/bundle/neobundle.vim" ]]; then
   git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 fi
 
