@@ -1,16 +1,17 @@
 ### Installation
 
-Requires vim compiled with lua. On mac:
+Requires vim and python 3. On mac:
 
 ```
-$ brew install macvim --with-python3
+$ brew install macvim python3
+$ pip3 install --user pynvim
+
 ```
 
 Or neovim with python 3 support:
 ```
-$ brew install neovim
-brew install python3
-pip3 install --upgrade neovim
+$ brew install neovim python3
+$ pip3 install --upgrade neovim
 ```
 
 `git clone git://github.com/robinclowers/vimfiles.git ~/.vim && ~/.vim/setup.sh`
