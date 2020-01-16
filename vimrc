@@ -809,6 +809,10 @@ set undodir=$HOME/.vim/undo
 set undolevels=1000
 set undoreload=10000
 
+" Use a better regex engine
+" https://stackoverflow.com/questions/16902317/vim-slow-with-ruby-syntax-highlighting
+set regexpengine=1
+
 " MacVIM shift+arrow-keys behavior (required in .vimrc)
 let macvim_hig_shift_movement = 1
 
