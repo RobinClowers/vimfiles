@@ -686,6 +686,7 @@ let g:ale_linters = {
 \   'html': [],
 \   'javascript': ['eslint', 'flow'],
 \   'elixir': ['credo'],
+\   'ruby': ['rubocop'],
 \ }
 let g:ale_fixers = {
 \ 'json': ['prettier'],
@@ -697,6 +698,7 @@ let g:ale_fixers = {
 \ 'elixir': ['mix_format'],
 \ 'go': ['goimports', 'gofmt'],
 \ 'terraform': ['terraform'],
+\ 'ruby': ['rubocop'],
 \ }
 
 " Show ALE error details
