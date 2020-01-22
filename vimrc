@@ -658,7 +658,7 @@ let g:ale_javascript_prettier_use_local_config = 1
 let g:ale_lint_on_insert_leave = 1
 let g:ale_fix_on_save = 1
 let g:ale_linters = {
-\   'json': ['prettier'],
+\   'json': ['eslint'],
 \   'html': [],
 \   'javascript': ['eslint'],
 \   'elixir': ['credo'],
@@ -667,7 +667,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \ 'json': ['prettier'],
 \ 'javascript': ['eslint', 'prettier'],
-\ 'typescript': ['tslint', 'prettier'],
+\ 'typescript': ['eslint', 'prettier'],
 \ 'markdown': ['prettier'],
 \ 'markdown.mdx': ['prettier'],
 \ 'scss': ['prettier'],
