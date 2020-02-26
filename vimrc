@@ -499,13 +499,6 @@ nmap <silent> <leader>h <Plug>DashGlobalSearch
 nmap <silent> <leader><leader>h <Plug>DashSearch
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vim-cjsx
-"
-" Support for coffee-react
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-NeoBundle 'mtscout6/vim-cjsx'
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-auto-save
 "
 " Automatically save.
