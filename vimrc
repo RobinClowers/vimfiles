@@ -259,15 +259,6 @@ map <leader>sr :RS<cr>
 " Make spec/test
 map <leader>ms :exec ':Runittest '.expand("%:t:r").'!'<cr>
 
-let g:rails_projections = {
-  \"app/assets/javascripts/*.coffee": {
-  \  "alternate": ["spec/javascripts/%s_spec.coffee"],
-  \},
-  \"spec/javascripts/*_spec.coffee": {
-  \  "alternate": "app/assets/javascripts/%s.coffee",
-  \},
-\}
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Improved javascript indentation
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
