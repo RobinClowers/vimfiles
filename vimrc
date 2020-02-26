@@ -262,9 +262,7 @@ map <leader>ms :exec ':Runittest '.expand("%:t:r").'!'<cr>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Improved javascript indentation
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" https://github.com/pangloss/vim-javascript/pull/250
-" NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'utix/vim-javascript', 'develop'
+NeoBundle 'pangloss/vim-javascript'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim Git runtime files
