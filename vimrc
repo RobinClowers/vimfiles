@@ -677,7 +677,7 @@ let g:ale_fix_on_save = 1
 let g:ale_linters = {
 \   'json': ['prettier'],
 \   'html': [],
-\   'javascript': ['eslint', 'flow'],
+\   'javascript': ['eslint'],
 \   'elixir': ['credo'],
 \   'ruby': ['rubocop'],
 \ }
