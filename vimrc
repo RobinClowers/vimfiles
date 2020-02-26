@@ -628,12 +628,6 @@ autocmd FileType typescript.tsx setlocal omnifunc=javascriptcomplete#CompleteJS
 NeoBundle 'HerringtonDarkholme/yats.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vim-jsx-typescript
-"
-" For Typescript tsx support
-NeoBundle 'peitalin/vim-jsx-typescript'
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-gdscript3
 "
 " For Godot gdscript support
