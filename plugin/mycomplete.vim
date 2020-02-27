@@ -15,8 +15,6 @@ autocmd BufRead,BufNewFile *.{sass,scss} setlocal iskeyword+=$
 autocmd BufRead,BufNewFile *.{css,sass,scss,less,styl,haml,html,erb} setlocal iskeyword+=- 
   \| let b:LocalCompleteAdditionalKeywordChars = '-'
 
-" Disable AutoComplPop.
-let g:acp_enableAtStartup = 0
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
 " Use smartcase.
