@@ -621,11 +621,11 @@ autocmd FileType typescript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType typescript.tsx setlocal omnifunc=javascriptcomplete#CompleteJS
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" yats.vim
+" typescript.vim
 "
 " For Typescript support
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-NeoBundle 'HerringtonDarkholme/yats.vim'
+NeoBundle 'leafgarland/typescript-vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-gdscript3
