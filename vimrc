@@ -625,7 +625,9 @@ autocmd FileType typescript.tsx setlocal omnifunc=javascriptcomplete#CompleteJS
 "
 " For Typescript support
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-NeoBundle 'leafgarland/typescript-vim'
+" NeoBundle 'leafgarland/typescript-vim'
+" Use this fork until this issue is fixed: https://github.com/leafgarland/typescript-vim/pull/167
+NeoBundle 'iwikal/typescript-vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-gdscript3
