@@ -655,12 +655,16 @@ NeoBundle 'hashivim/vim-terraform'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'w0rp/ale'
 let g:ale_javascript_prettier_use_local_config = 1
+let g:ale_javascript_eslint_use_global = 1
+let g:ale_javascript_eslint_executable = 'eslint_d'
 let g:ale_lint_on_insert_leave = 1
 let g:ale_fix_on_save = 1
 let g:ale_linters = {
 \   'json': ['eslint'],
 \   'html': [],
 \   'javascript': ['eslint'],
+\   'javascriptreact': ['eslint'],
+\   'typescript': ['eslint', 'tsserver'],
 \   'elixir': ['credo'],
 \   'ruby': ['rubocop'],
 \ }
@@ -668,6 +672,7 @@ let g:ale_fixers = {
 \ 'json': ['prettier'],
 \ 'html': ['prettier'],
 \ 'javascript': ['eslint', 'prettier'],
+\ 'javascriptreact': ['eslint', 'prettier'],
 \ 'typescript': ['eslint', 'prettier'],
 \ 'markdown': ['prettier'],
 \ 'markdown.mdx': ['prettier'],
