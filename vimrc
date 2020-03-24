@@ -671,18 +671,18 @@ let g:ale_linters = {
 \   'ruby': ['rubocop'],
 \ }
 let g:ale_fixers = {
-\ 'json': ['prettier'],
-\ 'html': ['prettier'],
-\ 'javascript': ['eslint', 'prettier'],
-\ 'javascriptreact': ['eslint', 'prettier'],
-\ 'typescript': ['eslint', 'prettier'],
-\ 'markdown': ['prettier'],
-\ 'markdown.mdx': ['prettier'],
-\ 'scss': ['prettier'],
-\ 'elixir': ['mix_format'],
-\ 'go': ['goimports', 'gofmt'],
-\ 'terraform': ['terraform'],
-\ 'ruby': ['rubocop'],
+\   'json': ['prettier'],
+\   'html': ['prettier'],
+\   'javascript': ['eslint', 'prettier'],
+\   'javascriptreact': ['eslint', 'prettier'],
+\   'typescript': ['eslint', 'prettier'],
+\   'markdown': ['prettier'],
+\   'markdown.mdx': ['prettier'],
+\   'scss': ['prettier'],
+\   'elixir': ['mix_format'],
+\   'go': ['goimports', 'gofmt'],
+\   'terraform': ['terraform'],
+\   'ruby': ['rubocop'],
 \ }
 
 " Show ALE error details
