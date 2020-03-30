@@ -674,7 +674,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \   'json': ['prettier'],
 \   'html': ['prettier'],
-\   'javascript': ['eslint', 'prettier'],
+\   'javascript': ['prettier', 'eslint'],
 \   'javascriptreact': ['prettier', 'eslint'],
 \   'typescriptreact': ['prettier', 'eslint'],
 \   'typescript': ['prettier', 'eslint'],
