@@ -608,17 +608,18 @@ NeoBundle 'elixir-lang/vim-elixir'
 " Typescript IDE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Don't hijack C-6
-nmap <Leader><C-]> <Plug>(TsuquyomiReferences)
+nmap <leader><C-]> <Plug>(TsuquyomiReferences)
 NeoBundle 'tsuquyomi'
 
 " Show type definitions
-autocmd FileType typescript nmap <buffer> <Leader>i : <C-u>echo tsuquyomi#hint()<CR>
+autocmd FileType typescript nmap <buffer> <leader>i : <C-u>echo tsuquyomi#hint()<CR>
+autocmd FileType typescriptreact nmap <buffer> <leader>i : <C-u>echo tsuquyomi#hint()<CR>
 let g:tsuquyomi_disable_quickfix = 1
 
 " Don't use broken tsuquyomi autocomplete
 " https://github.com/Quramy/tsuquyomi/issues/199
 autocmd FileType typescript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType typescript.tsx setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType typescriptreact setlocal omnifunc=javascriptcomplete#CompleteJS
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " typescript.vim
