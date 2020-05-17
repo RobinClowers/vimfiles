@@ -698,6 +698,14 @@ map <leader>d :ALEDetail<cr>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'christoomey/vim-tmux-navigator'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" fzf.vim
+"
+" Fuzzy finder
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set rtp+=/usr/local/Cellar/fzf/*
+NeoBundle 'junegunn/fzf.vim'
+
 call neobundle#end()
 
 :runtime macros/matchit.vim
