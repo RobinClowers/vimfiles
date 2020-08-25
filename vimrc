@@ -609,7 +609,7 @@ NeoBundle 'elixir-lang/vim-elixir'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Don't hijack C-6
 nmap <leader><C-]> <Plug>(TsuquyomiReferences)
-NeoBundle 'tsuquyomi'
+NeoBundle 'Quramy/tsuquyomi'
 
 " Show type definitions
 autocmd FileType typescript nmap <buffer> <leader>i : <C-u>echo tsuquyomi#hint()<CR>
