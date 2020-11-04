@@ -706,6 +706,13 @@ NeoBundle 'christoomey/vim-tmux-navigator'
 set rtp+=/usr/local/Cellar/fzf/*
 NeoBundle 'junegunn/fzf.vim'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-thrift
+"
+" For Thrift IDL syntax highlighting
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'solarnz/thrift.vim'
+
 call neobundle#end()
 
 :runtime macros/matchit.vim
