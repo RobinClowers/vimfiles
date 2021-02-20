@@ -713,6 +713,13 @@ NeoBundle 'junegunn/fzf.vim'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'solarnz/thrift.vim'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-visual-multi
+"
+" For multi cursor editing
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'mg979/vim-visual-multi'
+
 call neobundle#end()
 
 :runtime macros/matchit.vim
