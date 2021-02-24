@@ -688,6 +688,9 @@ let g:ale_fixers = {
 \   'ruby': ['rubocop'],
 \ }
 
+" Toggle auto fixer on or off
+command! ALEToggleFixer execute "let g:ale_fix_on_save = get(g:, 'ale_fix_on_save', 0) ? 0 : 1"
+
 " Show ALE error details
 map <leader>d :ALEDetail<cr>
 
