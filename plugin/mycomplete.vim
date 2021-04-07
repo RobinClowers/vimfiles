@@ -20,9 +20,6 @@ let g:deoplete#enable_at_startup = 1
 call deoplete#custom#option({
 \ 'smart_case': v:true,
 \ })
-call deoplete#custom#option('keyword_patterns', {
-\ '_': '\\h\\w*',
-\})
 
 let g:deoplete#auto_completion_start_length = 1
 let g:deoplete#lock_buffer_name_pattern = '\*ku\*'
