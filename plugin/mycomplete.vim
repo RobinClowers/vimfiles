@@ -17,9 +17,11 @@ autocmd BufRead,BufNewFile *.{css,sass,scss,less,styl,haml,html,erb} setlocal is
 
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
-call deoplete#custom#option({
-\ 'smart_case': v:true,
-\ })
+if exists("*deoplete#custom#option")
+  call deoplete#custom#option({
+  \ 'smart_case': v:true,
+  \ })
+endif
 
 let g:deoplete#auto_completion_start_length = 1
 let g:deoplete#lock_buffer_name_pattern = '\*ku\*'
