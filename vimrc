@@ -71,6 +71,11 @@ autocmd BufEnter    *.git/COMMIT_EDITMSG  exe BufEnterCommit()
 autocmd BufReadPost fugitive://* set bufhidden=delete
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Github integration
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'tpope/vim-rhubarb'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Surrond stuff with things. ysiw" surrounds a word with quotes
 " cs"' changes " to '
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
